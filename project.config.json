@@ -10,7 +10,7 @@
 	"miniprogramRoot": "dist/",
 	"compileType": "miniprogram",
 	"appid": "wxd2988d3ed90c3a4d",
-	"projectname": "wxapp",
+	"projectname": "%E4%BB%BF%E7%BE%8E%E5%9B%A2mp%E5%B0%8F%E7%A8%8B%E5%BA%8F",
 	"condition": {
 		"search": {
 			"current": -1,

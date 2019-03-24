@@ -26,8 +26,8 @@
       <!--图标九宫格入口-->
       <dl class="ub-box ub-wrap z-padding-v-5-px" style="background:#fff">
         <div class="icon-item ub-box ub-col ub-ver" :key="key" v-for="(idx, key) in iconMap">
-          <dd @click.stop="$openWin('/pages/error/main')" class="icon ub-box ub-ver iconfont" :class="key" :style="{background: iconMap[key]['bk']}"></dd>
-          <span class="z-padding-v-8-px z-font-size-12 z-color-333">{{iconMap[key]['title']}}</span> 
+          <dd @click.stop="$openWin(idx.url)" class="icon ub-box ub-ver iconfont" :class="key" :style="{background: iconMap[key]['bk']}"></dd>
+          <span class="z-padding-v-8-px z-font-size-12 z-color-333">{{iconMap[key]['title']}}</span>
         </div>
       </dl>
       <!--广告-->
@@ -77,16 +77,16 @@
           'http://p0.meituan.net/codeman/daa73310c9e57454dc97f0146640fd9f69772.jpg'
         ],
         iconMap: {
-          'icon-caigou': {title: '美食', bk: '#EF8B3E'}, 
-          'icon-shangpin': {title: '猫眼电影', bk: '#E4463B'},
-          'icon-touchengkongyun': {title: '酒店住宿', bk: '#8B67E5'},
-          'icon-daohang': {title: '休闲娱乐', bk: '#5DC7B0'},
-          'icon-zitigui': {title: '外卖', bk: '#F3AE42'},
-          'icon-jiesuan': {title: 'KTV', bk: '#5DC1A9'},
-          '.icon-jijianfasong': {title: '丽人', bk: '#EC5B6E'},
-          'icon-shoucang': {title: '景点门票', bk: '#5CA2F2'},
-          'icon-baobiao': {title: '火车票', bk: '#FD9D21'},
-          'icon-pifuzhuti': {title: '民宿', bk: '#BED300'},
+          'icon-caigou': {title: '美食', bk: '#EF8B3E',url:'/pages/cate/main'},
+          'icon-shangpin': {title: '猫眼电影', bk: '#E4463B',url:'/pages/error/main'},
+          'icon-touchengkongyun': {title: '酒店住宿', bk: '#8B67E5',url:'/pages/error/main'},
+          'icon-daohang': {title: '休闲娱乐', bk: '#5DC7B0',url:'/pages/error/main'},
+          'icon-zitigui': {title: '外卖', bk: '#F3AE42',url:'/pages/error/main'},
+          'icon-jiesuan': {title: 'KTV', bk: '#5DC1A9',url:'/pages/error/main'},
+          '.icon-jijianfasong': {title: '丽人', bk: '#EC5B6E',url:'/pages/error/main'},
+          'icon-shoucang': {title: '景点门票', bk: '#5CA2F2',url:'/pages/error/main'},
+          'icon-baobiao': {title: '火车票', bk: '#FD9D21',url:'/pages/error/main'},
+          'icon-pifuzhuti': {title: '宣传海报', bk: '#BED300',url:'/pages/poster/main'},
         },
       }
     },

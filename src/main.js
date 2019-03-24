@@ -33,11 +33,13 @@ export default {
       'pages/citySelect/main',
       'pages/search/main',
       'pages/error/main',
+      'pages/poster/main',
+      'pages/cate/main',
     ],
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',
-      navigationBarTitleText: '高仿美团',
+      navigationBarTitleText: 'i美食',
       navigationBarTextStyle: 'black',
       // enablePullDownRefresh: true
     },
