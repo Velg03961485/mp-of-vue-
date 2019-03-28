@@ -83,7 +83,7 @@
           'icon-daohang': {title: '休闲娱乐', bk: '#5DC7B0',url:'/pages/error/main'},
           'icon-zitigui': {title: '外卖', bk: '#F3AE42',url:'/pages/error/main'},
           'icon-jiesuan': {title: 'KTV', bk: '#5DC1A9',url:'/pages/error/main'},
-          '.icon-jijianfasong': {title: '丽人', bk: '#EC5B6E',url:'/pages/error/main'},
+          '.icon-jijianfasong': {title: '美食排行', bk: '#EC5B6E',url:'/pages/analyze/main'},
           'icon-shoucang': {title: '景点门票', bk: '#5CA2F2',url:'/pages/error/main'},
           'icon-baobiao': {title: '火车票', bk: '#FD9D21',url:'/pages/error/main'},
           'icon-pifuzhuti': {title: '宣传海报', bk: '#BED300',url:'/pages/poster/main'},

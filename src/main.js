@@ -35,6 +35,7 @@ export default {
       'pages/error/main',
       'pages/poster/main',
       'pages/cate/main',
+      'pages/analyze/main',
     ],
     window: {
       backgroundTextStyle: 'light',
